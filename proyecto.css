@@ -1,0 +1,41 @@
+h1{
+	color: purple;
+	text-align: center;
+	font-family: sans-serif;
+}
+h4{
+	font-weight: monospace;
+	font-style: italic;
+
+}
+
+ol{
+	font-weight: bolder;
+	font-size: 20px
+}
+
+
+body{
+	background-color: violet
+}
+
+ul li{
+list-style-type: square 
+}
+a:link   
+{   
+ text-decoration:none;   
+}   
+
+thead{
+	background-color: yellow
+}
+
+td{
+	font-family: monospace;
+	font-weight: normal
+}
+
+.enlaces-recetas{
+font-family: sans-serif;
+}
