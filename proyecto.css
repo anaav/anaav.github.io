@@ -20,7 +20,7 @@ body{
 }
 
 ul li{
-list-style-type: square 
+list-style-type:square 
 }
 a:link   
 {   
@@ -38,4 +38,7 @@ td{
 
 .enlaces-recetas{
 font-family: sans-serif;
+}
+#iconoslista{
+	list-style-image: url(1477584256_bullet_star.png);
 }
