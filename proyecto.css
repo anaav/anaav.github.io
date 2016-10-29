@@ -42,3 +42,14 @@ font-family: sans-serif;
 #iconoslista{
 	list-style-image: url(1477584256_bullet_star.png);
 }
+
+table{
+	border: orange 5px solid;
+	border-collapse: separate
+}
+thead{
+	text-align: center;
+}
+td{
+	text-align: center;
+}
