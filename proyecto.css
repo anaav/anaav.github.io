@@ -1,55 +1,126 @@
+*{
+	box-sizing: border-box;
+}
+
+
 h1{
 	color: purple;
-	text-align: center;
 	font-family: sans-serif;
+	position: fixed;
+	width: 100%;
+	margin-top: 10px;
 }
-h4{
-	font-weight: monospace;
-	font-style: italic;
 
+
+#image-tela{
+	margin-top: 100px;
+	width: 700px;
+	height: 200px;
+}
+
+h4{
+	font-family: monospace;
+	font-style: italic;
 }
 
 ol{
 	font-weight: bolder;
-	font-size: 20px
+	font-size: 20px;
 }
 
 
 body{
-	background-color: violet
+	background-color: violet;
+	margin-top: 0;
 }
 
-ul li{
-list-style-type:square 
-}
-a:link   
-{   
+a {   
  text-decoration:none;   
 }   
 
 thead{
-	background-color: yellow
+	background-color: yellow;
+	text-align: center;
 }
 
 td{
 	font-family: monospace;
-	font-weight: normal
+	font-weight: normal;
+	text-align: center;
 }
 
-.enlaces-recetas{
-font-family: sans-serif;
+
+#lista-iconos{
+	list-style-image: url(icono-estrella.png);
+	margin-top: 50px;
+	font-size: 20px;
 }
-#iconoslista{
-	list-style-image: url(1477584256_bullet_star.png);
+
+#lista-ordenada{
+	background-color: grey;
+	width: 600px;
+	border: 3px solid orange;
+
 }
 
 table{
-	border: orange 5px solid;
-	border-collapse: separate
+	border: 5px solid orange;
+	border-collapse: separate;
+	background-color: grey
 }
-thead{
-	text-align: center;
+
+
+hr{
+	size: 5px;
+	color: black;
 }
-td{
-	text-align: center;
+
+#image-ana{
+	float:left;
+	margin-right: 100px;
+	margin-bottom: 50px;
+}
+
+#div-aficiones{
+	clear: both;
+}
+
+#image-patines{
+	width: 100px;
+	height:100px;
+}
+
+#image-cuernos{
+	width: 100px;
+	height:100px;
+}
+
+#image-cocina{
+	width: 100px;
+	height: 100px;
+}
+
+.div-perro{
+	width: 300px;
+	height:300px;
+	overflow: auto;
+}
+#image-perro{
+	width: 400px;
+	height: 400px;
+}
+
+.container{
+	width: 500px;
+	margin: 0 auto;
+	max-width: 500px;	
+}
+
+#footer{
+position: absolute;
+background-color: white;
+font-family: monospace;
+font-size: 15px;
+margin-top: 20px;
+width: 100%;
 }

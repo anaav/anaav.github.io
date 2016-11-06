@@ -5,94 +5,146 @@
 	<title>La web de Ana</title>
 	<link rel="stylesheet" type="text/css" href="proyecto.css">
 </head>
-<body>
-<h1>ANA</h1>
-<img src="fig.jpg" width="800" height="200" alt="tela verde y azul">
-
-<h3>Hola mundo! En esta web os voy a contar alguna información sobre mí.</h3>
-<ol>
-	<li><a href="#datos">Datos personales
-	<li><a href="#aficiones">Aficiones</a></li>
-	<li><a href="#recetas">Recetas que me gusta preparar</a>
-
-<h4 id="datos">Mis datos personales</h4>
-<img src="ana" width="200" height="200"> 
-<ul id="iconoslista">
-	<li> <strong>Nombre</strong>: Ana </li>
-	<li> <strong>Edad </strong>: 29 </li>
-	<li> <strong>Lugar de nacimiento</strong>: Madrid </li>
-	<li> <strong>Formación</strong>: Educación Social </li>
-</ul>
-
-<h4 id="aficiones"> Mis aficiones </h4><br>
-
-	<p>Me gusta mucho patinar. Empecé cuando tenía 12 años y desde entonces no he parado de aprender. Para estar en forma y no perder habilidades procuro ir una vez a la semana al parque de Madrid Río, ya que allí tenemos un largo recorrido para patinador@s.<br>
-	<a target="_blank" href="http://urban-e.aq.upm.es/miscelanea/view/parque-del-r-o-manzanares-madrid/full">
-	<img src="http://img.freepik.com/iconos-gratis/patinaje-de-arranque-deportivo_318-70965.jpg?size=338&ext=jpg" width="100" height="100"> </a>
-
-	También me gusta la música y a menudo voy a conciertos.<br>
-	<img src="http://3.bp.blogspot.com/_jbTbsdffzfQ/S8uwCe7wl8I/AAAAAAAAEm4/BNPZfTLcHEc/s1600/Cuernos.jpg" width="100" height="100">
-	
-	Y otra de mis aficiones es la cocina. A continuación os voy a mostrar las recetas que más me gusta cocinar.<br>
-	<img src="http://img.freepik.com/vector-gratis/elementos-de-cocina-negros_1085-392.jpg?size=338&ext=jpg" width="100" height="100">
-	</p>
-	
-
-<h4 id="recetas"> Mis recetas preferidas</h4>
-<table>
-	<thead>
-	<tr>
-		<th>Plato</th>
-		<th>Lugar de origen</th>
-		<th>Tiempo</th>
-	</tr>
-	</thead>
+<div class=container>
 	<body>
-	<tr>
-		<td>Paella</td>
-		<td>Comunidad Valenciana</td>
-		<td>1h</td>
-	</tr>
 
-	<tr>
-		<td>Cocido</td>
-		<td>Madrid</td>
-		<td>1h y 15'</td>
-	</tr>
+		<h1>ANA</h1>
 
-	<tr>
-		<td>Migas</td>
-		<td>Zamora</td>
-		<td>45'</td>
-	</tr>
+		<img id="image-tela" src="tela.jpg" width="300" alt="tela verde y azul">
 
-	<tr>
-		<td>Fabada</td>
-		<td>Asturias</td>
-		<td>1h y 15'</td>
-	</tr>
+		<h3>Hola mundo! En esta web os voy a contar alguna información sobre mí.</h3>
 
-	<tr>
-		<td>Cordero asado</td>
-		<td>Segovia</td>
-		<td>2h y 15'</td>
-	</tr>
-	</tbody>
+		<div id="lista-ordenada">
 
-</table>
-<p> En los siguientes enlaces podeis encontrar las recetas detalladas: <br> 
-</p>
-<p class="enlaces-recetas">
-<a  target="_blank" href="http://www.recetapaella.es/">Receta Paella</a> <br>
-<a target="_blank" href="http://www.xn--rutadelcocidomadrileo-vbc.com/receta-cocido.php">Receta Cocido</a> <br>
-<a target="_blank" href="http://www.recetamigas.com/">Receta Migas</a> <br>
-<a target="_blank" href="http://recetasderechupete.hola.com/receta-de-fabada-o-fabes-asturianas/982/">Receta Fabada</a><br>
-<a target="_blank" href="http://www.corderoalhorno.net/">Receta Cordero Asado<br>
-</a>
-</p>
+			<ol>
+
+				<li><a href="#datos">Datos personales</a></li>
+				<li><a href="#aficiones">Aficiones</a></li>
+				<li><a href="#recetas">Recetas que me gusta preparar</a></li>
+
+			</ol>
+
+		</div>
+
+		<div id="datos-personales">
+
+			<h3 id="datos">Mis datos personales</h3>
+
+			<img id="image-ana" src="ana" alt="foto-ana" width="200" height="200"> 
+
+
+			<ul id="lista-iconos">
+
+				<li> <strong>Nombre</strong>: Ana </li>
+				<li> <strong>Edad </strong>: 29 </li>
+				<li> <strong>Lugar de nacimiento</strong>: Madrid </li>
+				<li> <strong>Formación</strong>: Educación Social </li>
+
+			</ul>
+
+		</div>
 
 
 
+		<div id="div-aficiones">
+
+			<hr/>
+
+			<h3 id="aficiones"> Mis aficiones </h3>
+
+			<p> Me gusta mucho patinar. Empecé cuando tenía 12 años y desde entonces no he parado de aprender. Para estar en forma y no perder habilidades procuro ir una vez a la semana al parque de Madrid Río, ya que allí tenemos un largo recorrido para patinador@s.</p>
+
+			<a target="_blank" href="http://urban-e.aq.upm.es/miscelanea/view/parque-del-r-o-manzanares-madrid/full"> <img id="image-patines" src="http://img.freepik.com/iconos-gratis/patinaje-de-arranque-deportivo_318-70965.jpg?size=338&ext=jpg" alt="patines"> </a>
+
+			<p>También me gusta la música y a menudo voy a conciertos.</p>
+
+			<img id="image-cuernos" src="http://3.bp.blogspot.com/_jbTbsdffzfQ/S8uwCe7wl8I/AAAAAAAAEm4/BNPZfTLcHEc/s1600/Cuernos.jpg"
+			alt="cuernos-rock">
+
+			<p>Y otra de mis aficiones es la cocina. A continuación os voy a mostrar las recetas que más me gusta cocinar.</p>
+
+			<img id="image-cocina" src="http://img.freepik.com/vector-gratis/elementos-de-cocina-negros_1085-392.jpg?size=338&ext=jpg" alt="elementos-de-cocina"
+
+		</div>
+
+		<hr/>
+
+		<h3 id="recetas"> Mis recetas preferidas</h3>
+
+		<table>
+
+			<thead>
+
+				<tr>
+					<th>Plato</th>
+					<th>Lugar de origen</th>
+					<th>Tiempo</th>
+				</tr>
+
+			</thead>
+			<body>
+
+				<tr>
+					<td>Paella</td>
+					<td>Comunidad Valenciana</td>
+					<td>1h</td>
+				</tr>
+
+				<tr>
+					<td>Cocido</td>
+					<td>Madrid</td>
+					<td>1h y 15'</td>
+				</tr>
+
+				<tr>
+					<td>Migas</td>
+					<td>Zamora</td>
+					<td>45'</td>
+				</tr>
+
+				<tr>
+					<td>Fabada</td>
+					<td>Asturias</td>
+					<td>1h y 15'</td>
+				</tr>
+
+				<tr>
+					<td>Cordero asado</td>
+					<td>Segovia</td>
+					<td>2h y 15'</td>
+				</tr>
+
+			</tbody>
+
+		</table>
+
+		<p> En los siguientes enlaces podeis encontrar las recetas detalladas: </p>
+
+		<ul>
+
+
+			<li><a target="_blank" href="http://www.recetapaella.es/">Receta Paella</a> </li>
+			<li><a target="_blank" href="http://www.recetamigas.com/">Receta Migas</a> </li>
+			<li><a target="_blank" href="http://www.xn--cocidomadrileo-2nb.com/">Receta Cocido<a/> </li>
+			<li><a target="_blank" href="http://recetasderechupete.hola.com/receta-de-fabada-o-fabes-asturianas/982/">Receta Fabada</a></li>
+			<li><a target="_blank" href="http://www.corderoalhorno.net/">Receta Cordero Asado</a> </li>
+
+
+			<div class="div-perro">
+
+			<img id="image-perro" src="/home/ana/Escritorio/proyecto1/pug-razas-perros-lamiendo-lengua.jpg" alt="perro-relamiendose" >
+
+			</div>
+			<a target="_blank" href="modal.html"> Enlace documento html</a>
+
+
+			<!--Tengo un tractor amarillo que es lo que se lleva ahora-->
+
+			<div id=footer>
+
+				<p> "Fuimos nacidos hijos de los días porque cada día tiene una historia y nosotros somos las historias que vivimos."</p>
+
+			</div>
 
 
 
@@ -100,5 +152,14 @@
 
 
 
-</body>
-</html>
+
+
+
+
+
+
+
+		</body>
+	</div>
+
+	</html>
