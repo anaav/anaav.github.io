@@ -1,0 +1,30 @@
+body{
+	background-image: url(/home/ana/Escritorio/Personalweb/fondo-madera.jpg);
+}
+
+#contacto{
+	color: white;
+	position: absolute;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height:100%;
+
+}
+
+
+h4{
+	font-weight: bold;
+	font-family: garamond;
+	color:white;
+}
+
+#imagen-contacto{
+	position: absolute;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin: 200px 100px 100px 300px;
+}
