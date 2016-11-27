@@ -3,16 +3,13 @@
 }
 
 body{
-	background-image: url(images/background.jpg);
+	background-image: url(../images/fondo-web.jpg);
+	background-size: cover;
+
+	width: 100%;
 			
 }
 
-#fondo{
-	background-repeat : no-repeat; 
-	background-attachment : fixed;
-	width: 100%;
-	
-	}
 
 #anclas{
 	color: white;
