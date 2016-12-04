@@ -3,7 +3,7 @@
 }
 
 body{
-	background-image: url(../images/fondo-madera.jpg);
+	background-image: url(/home/ana/Escritorio/Personalweb/images/fondo-madera.jpg);
 	color: white;
 	position: absolute;
 	display:flex;
