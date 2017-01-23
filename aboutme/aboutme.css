@@ -3,7 +3,7 @@
 }
 
 body{
-	background-image: url(images/fondo-madera.jpg);
+	background-image: url(../imagenes/fondo-madera.jpg);
 	color: white;
 	position: absolute;
 	display:flex;
